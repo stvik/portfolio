@@ -11,8 +11,7 @@ function Navbar() {
 		setActiveItem(name)
 	}
   return (
-   <Menu secondary inverted >
-        <Menu.Item header>Sara Tarnvik</Menu.Item>
+   <Menu secondary inverted>
         <Menu.Menu position='right'>
 	        <Menu.Item
 	          name='home'

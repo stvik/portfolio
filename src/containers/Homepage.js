@@ -7,7 +7,7 @@ function Homepage() {
   return (
   	<div className='headerContainer'>
   		<Header inverted className='nameHeader'>Sara Tarnvik</Header>
-  		<Header size='huge' color='grey' inverted>Full-Stack Software Engineer</Header>
+  		<Header size='huge' color='grey' textAlign='center' inverted>Full-Stack Software Engineer</Header>
 
   		<div  style={{paddingTop:'2vh'}}>
   			<a href='https://github.com/stvik' target='_blank' style={{paddingRight:'2vw'}}>
