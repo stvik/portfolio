@@ -64,6 +64,13 @@
 .nameHeader {
   font-family: 'Cabin', sans-serif !important; 
   font-size: 8vw !important;
-
-
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 24vh;
+}
+
+

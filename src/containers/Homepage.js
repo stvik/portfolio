@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
-import { Header, Icon } from 'semantic-ui-react'
+import { Header, Icon} from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 
 function Homepage() {
   return (
+  <>
   	<div className='headerContainer'>
   		<Header inverted className='nameHeader'>Sara Tarnvik</Header>
   		<Header size='huge' color='grey' textAlign='center' inverted>Full-Stack Software Engineer</Header>
@@ -18,8 +19,14 @@ function Homepage() {
   			</a>
   		</div>
   	</div>
+  	<div className='footer'>
+  		<Icon link inverted size='huge' name='angle down'/>
+  	</div>
 
-  );
+
+  	</>
+
+  )
 }
 
 export default Homepage;
