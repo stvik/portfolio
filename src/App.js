@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import './App.css';
 import Homepage from './containers/Homepage'
 import Navbar from './components/Navbar'
+import Aboutpage from './containers/Aboutpage'
 import 'semantic-ui-css/semantic.min.css'
 
 function App() {

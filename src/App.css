@@ -73,4 +73,13 @@
   height: 24vh;
 }
 
+.profileImage {
+  object-fit: cover;
+  object-position: 100% 0 0;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 5vh;
+}
+
 
