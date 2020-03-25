@@ -2,8 +2,9 @@ import React, { Fragment } from 'react';
 import { Header, Icon} from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
-
 function Homepage() {
+  const linkedin = 'https://www.linkedin.com/in/sara-tarnvik/'
+  
   return (
   <>
   	<div className='headerContainer'>
@@ -14,7 +15,7 @@ function Homepage() {
   			<a href='https://github.com/stvik' target='_blank' style={{paddingRight:'2vw'}}>
   				<Icon circular inverted link name='github' size='big'/>
   			</a>
-  			<a href='https://www.linkedin.com/in/sara-tarnvik/' target='_blank'>
+  			<a href={linkedin} target='_blank'>
   				<Icon circular link inverted name='linkedin' size='big'/>
   			</a>
   		</div>
